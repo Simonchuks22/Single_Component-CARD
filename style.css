@@ -1,0 +1,103 @@
+body{
+    background-color:  hsl(203, 26%, 68%);
+}
+.price-grid{
+    width: 850px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: repeat(3,  1fr);
+    box-shadow: 0 0 4px rgb(0, 0, 0, 0.1);
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+
+    
+    
+
+}
+.grid-1{
+    background-color: hsl(0, 0%, 100%);
+    padding: 47px;
+    word-spacing: 1.5px;
+    font-family: 'Karla', sans-serif;
+    border-top-left-radius: 0.8em;
+    border-top-right-radius: 0.8em;
+
+}
+.grid-2{
+    background-color: hsl(179, 62%, 43%);
+    padding: 47px;
+    color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    border-bottom-left-radius: 0.8em;
+     
+    
+
+}
+.grid-3{
+    background-color: hsl(179, 36%, 47%);
+    padding: 47px;
+    color:  hsl(204, 43%, 93%);
+    line-height: 30px;
+    font-family: 'Karla', sans-serif;
+    border-bottom-right-radius: 0.8em;
+    
+}
+.twin-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#sign-up{
+    width: 80%;
+    border-radius: 6px;
+    padding: 20px;
+    background-color:hsl(71, 73%, 54%);
+    font-size: 16px;
+    color:white ;
+    border-style: hidden;
+    margin-top: 60px;
+    
+    
+    
+
+}
+.grid-1 >h2{
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-top: 10px;
+
+}
+.grid-1 >h3{
+    color: hsl(71, 73%, 54%);
+    font-weight: 400;
+
+}
+.grid-1 >p{
+    color: hsl(203, 58%, 82%);
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 30px;
+
+}
+
+#money{
+    font-size: 47px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    
+    
+    
+}
+#time{
+margin-left: 9px;
+color: hsl(203, 58%, 82%);
+word-spacing: 1px;
+
+
+}
+
+
+
